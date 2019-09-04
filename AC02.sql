@@ -2,13 +2,13 @@
 -- Lucas Buchalla Sesti RA: XXXXXXX
 
 CREATE TABLE PEDIDO (
-    codigo INT INDENTITY,
+    codigo INT IDENTITY,
     data SMALLDATETIME NOT NULL,
     CONSTRAINT pkPedido PRIMARY KEY(codigo)
 );
 
 CREATE TABLE PRODUTO (
-  codigo INT INDENTITY,
+  codigo INT IDENTITY,
   nome VARCHAR(120) NOT NULL,
   preco SMALLMONEY NOT NULL,
   CONSTRAINT pkProduto PRIMARY KEY(codigo)
